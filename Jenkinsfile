@@ -17,6 +17,7 @@ stages {
                   mvn install
                   echo "Build Successful"
                 sh 'sleep 30'
+                '''
              }
         }
         stage ('STAGE2'){
